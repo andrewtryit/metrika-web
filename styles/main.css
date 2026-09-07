@@ -1,0 +1,89 @@
+
+
+section {
+  margin: 0 auto;
+
+  width: 1200px;
+
+  background-color: #f9f9fb;
+}
+
+h1 {
+  margin-bottom: 24px;
+
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 110%;
+  color: #1a1a1a;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #c62828;
+}
+
+.intro {
+  padding-bottom: 120px;
+}
+
+.intro__p {
+  margin-bottom: 64px;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #707076;
+  line-height: 160%;
+}
+
+.figure {
+  background-image: url(../resources/back-room.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+
+  padding-top: 437px;
+  padding-left: 40px;
+
+  width: 1200px;
+  height: 640px;
+}
+
+.caption {
+  background-color: #fff;
+  border-radius: 4px;
+
+  padding-top: 24px;
+  padding-left: 24px;
+
+  width: 340px;
+  height: 163px;
+}
+
+.caption__first {
+  margin-bottom: 8px;
+
+  letter-spacing: 0.08em;
+}
+
+.caption__second {
+  margin-bottom: 8px;
+
+  font-family: 'EB Garamond', serif;
+  font-weight: 600;
+  font-size: 20px;
+  color: #1a1a1a;
+  line-height: 26px;
+}
+
+.caption__third {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #707076;
+
+  line-height: 16px;
+}
