@@ -1,4 +1,8 @@
 section {
+width: 100%;
+}
+
+.container {
   margin: 0 auto;
 
   width: 1200px;
@@ -31,7 +35,9 @@ h3 {
   color: #1a1a1a;
 }
 
-.intro {
+/*  */
+
+.container--intro {
   padding-bottom: 120px;
 }
 
@@ -94,7 +100,9 @@ h3 {
   line-height: 16px;
 }
 
-.decsription {
+/*  */
+
+.container--description {
   padding-top: 100px;
   padding-bottom: 72px;
 
@@ -133,10 +141,10 @@ h3 {
 
 .button {
   display: inline-block;
-  padding-top: 10px;
+  padding-top: 20px;
 
-  width: 222px;
-  height: 44px;
+  width: 255px;
+  height: 67px;
 
   background-color: #c62828;
   border-radius: 4px;
@@ -147,7 +155,7 @@ h3 {
   text-align: center;
   font-family: 'EB Garamond', serif;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 20px;
   line-height: 20px;
   letter-spacing: 0.08em;
   color: #fff;
@@ -158,7 +166,9 @@ h3 {
   color: #c62828;
 }
 
-.cases {
+/*  */
+
+.container--cases {
   padding-top: 120px;
   padding-bottom: 72px;
 }
@@ -208,6 +218,9 @@ h3 {
   width: 100%;
   height: 153px;
 
+  background-color: #fff;
+  color: #c62828;
+
   font-family: 'EB Garamond', serif;
   font-weight: 400;
   font-size: 40px;
@@ -215,4 +228,7 @@ h3 {
   line-height: 41px;
 }
 
-
+.button--width:hover {
+  background-color: #c62828;
+  color: #fff;
+}
