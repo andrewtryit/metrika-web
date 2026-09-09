@@ -2,6 +2,8 @@ section {
   margin: 0 auto;
 
   width: 1200px;
+
+  background-color: #fff;
 }
 
 h1 {
@@ -131,8 +133,7 @@ h3 {
 
 .button {
   display: inline-block;
-  padding-top: 14px;
-  padding-left: 0px;
+  padding-top: 10px;
 
   width: 222px;
   height: 44px;
@@ -144,8 +145,8 @@ h3 {
 
   text-decoration: none;
   text-align: center;
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
   font-size: 13px;
   line-height: 20px;
   letter-spacing: 0.08em;
@@ -156,3 +157,62 @@ h3 {
   background-color: #fff;
   color: #c62828;
 }
+
+.cases {
+  padding-top: 120px;
+  padding-bottom: 72px;
+}
+
+.case {
+  padding-bottom: 80px;
+}
+
+.cases__first {
+  margin-bottom: 16px;
+
+  letter-spacing: 0.21em;
+}
+
+.cases__second {
+  margin-bottom: 80px;
+
+  line-height: 52px;
+}
+
+.case__img {
+  margin-bottom: 24px;
+}
+
+.case__title {
+  margin-bottom: 36px;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  letter-spacing: 0.02em;
+  color: #1a1a1a;
+}
+
+.more-btn {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #c62828;
+  text-decoration: none;
+}
+
+.button--width {
+  padding-top: 5px;
+  width: 100%;
+  height: 153px;
+
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 40px;
+  letter-spacing: -0.03em;
+  line-height: 41px;
+}
+
+
