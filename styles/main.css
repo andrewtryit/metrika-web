@@ -1,13 +1,12 @@
 section {
-width: 100%;
+  width: 100%;
+  background-color: #fff;
 }
 
 .container {
   margin: 0 auto;
 
   width: 1200px;
-
-  background-color: #fff;
 }
 
 h1 {
@@ -102,11 +101,13 @@ h3 {
 
 /*  */
 
+.decsription {
+  background-color: #f9f9fb;
+}
+
 .container--description {
   padding-top: 100px;
   padding-bottom: 72px;
-
-  background-color: #f9f9fb;
 }
 
 .description__first {
@@ -231,4 +232,49 @@ h3 {
 .button--width:hover {
   background-color: #c62828;
   color: #fff;
+}
+
+/*  */
+
+.services {
+  background-color: #111111;
+}
+
+.container--services {
+  padding-top: 120px;
+  padding-bottom: 150px;
+}
+
+.services__first {
+  margin-bottom: 24px;
+
+  letter-spacing: 0.21em;
+  color: #a0a0ab;
+}
+
+.services__second {
+  margin-bottom: 80px;
+
+  line-height: 52px;
+  color: #fff;
+}
+
+.service {
+  padding-bottom: 60px;
+}
+
+.service__img {
+  margin-bottom: 15px;
+}
+
+.service__title {
+  font-family: 'EB Garamond', serif;
+  font-weight: 700;
+  font-size: 30px;
+  letter-spacing: 0.02em;
+  color: #a0a0ab;
+}
+
+.service:nth-child(4) {
+  padding-bottom: 0px;
 }
