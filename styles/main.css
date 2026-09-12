@@ -51,9 +51,8 @@ h3 {
 }
 
 .figure {
-  padding-top: 437px;
-  padding-left: 40px;
-
+  position: relative;
+  
   width: 1200px;
   height: 640px;
 
@@ -64,6 +63,10 @@ h3 {
 }
 
 .caption {
+  position: absolute;
+  bottom: 40px;
+  left: 40px;
+
   padding-top: 24px;
   padding-left: 24px;
 
