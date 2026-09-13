@@ -64,7 +64,7 @@ thead,
 tr,
 th,
 td,
-article,
+li,
 aside,
 canvas,
 details,
@@ -93,7 +93,7 @@ video {
   vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article,
+li,
 aside,
 details,
 figcaption,
