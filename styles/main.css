@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 section {
   width: 100%;
   background-color: #fff;
@@ -77,11 +81,6 @@ h3 {
 }
 
 .nav__link:hover {
-  color: #c62828;
-  text-decoration: underline;
-}
-
-.nav__link--active {
   color: #c62828;
   text-decoration: underline;
 }
