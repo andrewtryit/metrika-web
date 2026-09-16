@@ -453,16 +453,15 @@ h3 {
 
   color: #111111;
   font-weight: 600;
+  font-size: 15px;
 }
 
 .container--contacts h2::before {
   /* Добавил картинку телефона к h2 "контакты"  */
   position: absolute;
-  bottom: -15px;
-  left: 60px;
+  bottom: 10px;
   content: '';
   display: inline-block;
-
 
   width: 30px;
   height: 60px;
@@ -470,5 +469,30 @@ h3 {
   background-image: url(/resources/phone-before.jpg);
   background-size: contain;
   background-repeat: no-repeat;
-   background-position: center;
+  background-position: center;
+}
+
+.contacts__telnumb,
+.contacts__mail {
+  display: block;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 100%;
+  letter-spacing: -0.03em;
+  color: #000;
+}
+
+.contacts__telnumb:hover,
+.contacts__mail:hover {
+  text-decoration: underline;
+}
+
+.contacts__telnumb {
+  margin-bottom: 30px;
+}
+
+.contacts__mail {
+  color: #a0a0ab;
 }
