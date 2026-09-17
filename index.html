@@ -4,44 +4,42 @@
     <meta charset="UTF-8" />
     <title>Метрика</title>
 
-    <link
-      rel="stylesheet"
-      href="styles/reset.css"
-    />
-    <link
-      rel="stylesheet"
-      href="styles/main.css"
-    />
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/main.css" />
 
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap"
       rel="stylesheet"
     />
 
-    <link
-      rel="preconnect"
-      href="https://fonts.googleapis.com"
-    />
-    <link
-      rel="preconnect"
-      href="https://fonts.gstatic.com"
-      crossorigin
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&display=swap"
       rel="stylesheet"
     />
   </head>
   <body>
+    <header class="header">
+      <div class="container container--header">
+        <a href="/" class="logo-link">
+          <img
+            src="resources/metrika-logo.png"
+            alt="логотип студии"
+            class="logo-img"
+          />
+        </a>
+        <nav class="nav">
+          <a href="#about-us" class="nav__link">О НАС</a>
+          <a href="#cases" class="nav__link">ПРОЕКТЫ</a>
+          <a href="#services" class="nav__link">УСЛУГИ</a>
+          <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
+        </nav>
+      </div>
+    </header>
+
     <main>
       <section class="intro">
         <div class="container container--intro">
@@ -65,7 +63,7 @@
         </div>
       </section>
 
-      <section class="decsription">
+      <section id="about-us" class="decsription">
         <div class="container container--description">
           <h2>О НАС</h2>
           <h3>Студия «Метрика»</h3>
@@ -81,16 +79,11 @@
             все этапы реализации: от первой планировки до финальной навески штор
             и сдачи <br />объекта "под ключ".
           </p>
-          <button
-            href="/"
-            class="button"
-          >
-            Посмотреть услуги
-          </button>
+          <a href="/" class="button">Посмотреть услуги</a>
         </div>
       </section>
 
-      <section class="cases">
+      <section id="cases" class="cases">
         <div class="container container--cases">
           <h2>ПРОЕКТЫ</h2>
           <h3>Наши последние работы</h3>
@@ -103,11 +96,7 @@
                 class="case__img"
               />
               <h4 class="case__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h4>
-              <a
-                href="/"
-                class="more-link"
-                >Подробнее →</a
-              >
+              <a href="/" class="more-link">Подробнее →</a>
             </li>
 
             <li class="case">
@@ -117,11 +106,7 @@
                 class="case__img"
               />
               <h4 class="case__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 м² — 2023</h4>
-              <a
-                href="/"
-                class="more-link"
-                >Подробнее →</a
-              >
+              <a href="/" class="more-link">Подробнее →</a>
             </li>
 
             <li class="case">
@@ -131,19 +116,15 @@
                 class="case__img"
               />
               <h4 class="case__title">ЖК СОСНОВЫЕ ОЗЕРА — 94 м² — 2022</h4>
-              <a
-                href="/"
-                class="more-link"
-                >Подробнее →</a
-              >
+              <a href="/" class="more-link">Подробнее →</a>
             </li>
           </ul>
 
-          <a class="button button--width">Смотреть все проекты</a>
+          <a href="/" class="button button--width">Смотреть все проекты</a>
         </div>
       </section>
 
-      <section class="services">
+      <section id="services" class="services">
         <div class="container container--services">
           <h2>УСЛУГИ</h2>
           <h3>Что мы предлагаем</h3>
@@ -193,6 +174,39 @@
           </ul>
         </div>
       </section>
+
+      <section class="fullscreen">
+        <div class="container container--fullscreen">
+          <h2>ПРОЕКТ В ДЕТАЛЯХ</h2>
+          <h3>Проект Двухкомнатной квартиры в ЖК <br />«Лесной Пассаж»</h3>
+          <a href="/" class="button button--crystal">ПОСМОТРЕТЬ КЕЙС</a>
+        </div>
+      </section>
+
+      <section id="contacts" class="contacts">
+        <address class="container container--contacts">
+          <h2>Контакты</h2>
+          <a href="tel:+79358954535" class="contacts__telnumb"
+            >+7 935 895-45-35</a
+          >
+          <a href="mailto:hello@mail.com" class="contacts__mail"
+            >hello@mail.com</a
+          >
+        </address>
+      </section>
     </main>
+
+    <footer class="footer">
+      <div class="container container--footer">
+        <nav class="nav nav--footer">
+          <a href="#about-us" class="nav__link nav__link--footer">О НАС</a>
+          <a href="#cases" class="nav__link nav__link--footer">ПРОЕКТЫ</a>
+          <a href="#services" class="nav__link nav__link--footer">УСЛУГИ</a>
+          <a href="#contacts" class="nav__link nav__link--footer">КОНТАКТЫ</a>
+        </nav>
+
+        <p class="footer-p">студия дизайна интерьера Метрика — 2026</p>
+      </div>
+    </footer>
   </body>
 </html>
