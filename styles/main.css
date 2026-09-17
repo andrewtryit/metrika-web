@@ -2,8 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
-section {
+section,
+.footer {
   width: 100%;
+  min-width: 1200px;
   background-color: #fff;
 }
 
@@ -384,15 +386,15 @@ h3 {
   background-position: center;
 }
 
-.fullscreen-wrapper {
+.container--fullscreen {
   position: relative;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 
-  width: 800px;
-  height: 204px;
+  width: 1200px;
+  /* height: 204px; */
 }
 
-.fullscreen-wrapper h2 {
+.container--fullscreen h2 {
   margin-bottom: 16px;
 
   font-weight: 400;
@@ -401,7 +403,7 @@ h3 {
   color: #fff;
 }
 
-.fullscreen-wrapper h2::first-letter {
+.container--fullscreen h2::first-letter {
   /*у h2 в секции fullscreen первая буква стандартных размеров */
   font-family: 'Inter', sans-serif;
 
@@ -409,7 +411,7 @@ h3 {
   font-size: 12px;
 }
 
-.fullscreen-wrapper h3 {
+.container--fullscreen h3 {
   text-align: center;
   margin-bottom: 16px;
 
@@ -419,7 +421,7 @@ h3 {
 
 .button--crystal {
   position: absolute;
-  left: 310px;
+  left: 510px;
   padding-top: 12px;
 
   width: 180px;
@@ -495,4 +497,45 @@ h3 {
 
 .contacts__mail {
   color: #a0a0ab;
+}
+
+/*   */
+
+.footer {
+  background-color: #1a1a1a;
+}
+
+.container--footer {
+  padding: 70px 0 53px 0;
+}
+
+.nav--footer {
+  display: block;
+  margin: 0 auto;
+  padding: 0 0 63px 0;
+
+  width: 492px;
+}
+
+.nav__link--footer {
+  margin-right: 60px;
+
+  font-size: 14px;
+  letter-spacing: 0.14em;
+  line-height: 17px;
+  color: #a1a1ab;
+}
+
+.nav__link--footer:hover {
+  color: #a1a1ab;
+  text-decoration: underline;
+}
+
+.footer-p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  line-height: 17px;
+  color: #808087;
 }
