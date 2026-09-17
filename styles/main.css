@@ -194,7 +194,7 @@ h3 {
   width: 40px;
   height: 2px;
 
-  background-image: url(/resources/underscore.png);
+  background-image: url(../resources/underscore.png);
   background-size: cover;
 }
 
@@ -276,7 +276,7 @@ h3 {
   width: 40px;
   height: 2px;
 
-  background-image: url(/resources/underscore.png);
+  background-image: url(../resources/underscore.png);
   background-size: cover;
 }
 
@@ -468,7 +468,7 @@ h3 {
   width: 30px;
   height: 60px;
 
-  background-image: url(/resources/phone-before.jpg);
+  background-image: url(../resources/phone-before.jpg);
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
