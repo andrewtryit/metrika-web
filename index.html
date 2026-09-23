@@ -2,10 +2,13 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Метрика</title>
 
     <link rel="stylesheet" href="styles/reset.css" />
     <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/tablet.css" />
+    <link rel="stylesheet" href="styles/phone.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -22,7 +25,7 @@
     />
   </head>
   <body>
-    <header class="header">
+    <!-- <header class="header">
       <div class="container container--header">
         <a href="/" class="logo-link">
           <img
@@ -38,93 +41,96 @@
           <a href="#contacts" class="nav__link">КОНТАКТЫ</a>
         </nav>
       </div>
-    </header>
+    </header> -->
 
     <main>
       <section class="intro">
         <div class="container container--intro">
-          <h1>
-            Современные и стильные интерьеры для <br />
-            комфортной жизни
-          </h1>
-          <p class="intro__p">
-            Мы создаем индивидуальные архитектурные и дизайнерские проекты,
-            сочетающие <br />
-            в себе функциональность, утонченную эстетику и безупречное качество
-            <br />исполнения.
-          </p>
-          <figure class="figure">
-            <figcaption class="caption figure__caption">
-              <h2>ГРАН-ПРИ 2023</h2>
-              <h3>Лучший проект жилого <br />интерьера</h3>
-              <p>Премия Ассоциации Архитекторов и <br />Дизайнеров</p>
-            </figcaption>
-          </figure>
+          <div class="intro-inner">
+            <h1>
+              Современные и стильные интерьеры для <br />
+              комфортной жизни
+            </h1>
+            <p class="intro__p">
+              Мы создаем индивидуальные архитектурные и дизайнерские проекты,
+              сочетающие <br />
+              в себе функциональность, утонченную эстетику и безупречное
+              качество
+              <br />исполнения.
+            </p>
+            <figure class="figure">
+              <figcaption class="caption figure__caption">
+                <h2>ГРАН-ПРИ 2023</h2>
+                <h3>Лучший проект жилого <br />интерьера</h3>
+                <p>Премия Ассоциации Архитекторов и <br />Дизайнеров</p>
+              </figcaption>
+            </figure>
+          </div>
         </div>
       </section>
 
       <section id="about-us" class="decsription">
         <div class="container container--description">
-          <h2>О НАС</h2>
-          <h3>Студия «Метрика»</h3>
-          <h4>ОСНОВАНА В 2011 ГОДУ</h4>
-          <p class="description__p">
-            За более чем 12 лет успешной работы мы реализовали свыше 250
-            уникальных дизайн-проектов по <br />всей стране и за её пределами.
-            Каждый наш проект — это результат глубокого анализа стиля
-            <br />жизни клиента, его ценностей и пожеланий. <br /><br />Мы не
-            просто рисуем красивые картинки — мы создаем глубокую,
-            технологически продуманную <br />жилую среду, где каждая деталь
-            находится на своем месте. Наша команда полностью <br />контролирует
-            все этапы реализации: от первой планировки до финальной навески штор
-            и сдачи <br />объекта "под ключ".
-          </p>
-          <a href="/" class="button">Посмотреть услуги</a>
+          <div class="description-inner">
+            <h2>О НАС</h2>
+            <h3>Студия «Метрика»</h3>
+            <h4>ОСНОВАНА В 2011 ГОДУ</h4>
+            <p class="description__p">
+              За более чем 12 лет успешной работы мы реализовали свыше 250
+              уникальных дизайн-проектов по <br />всей стране и за её пределами.
+              Каждый наш проект — это результат глубокого анализа стиля
+              <br />жизни клиента, его ценностей и пожеланий. <br /><br />Мы не
+              просто рисуем красивые картинки — мы создаем глубокую,
+              технологически продуманную <br />жилую среду, где каждая деталь
+              находится на своем месте. Наша команда полностью
+              <br />контролирует все этапы реализации: от первой планировки до
+              финальной навески штор и сдачи <br />объекта "под ключ".
+            </p>
+            <a href="/" class="button">Посмотреть услуги</a>
+          </div>
         </div>
       </section>
 
       <section id="cases" class="cases">
         <div class="container container--cases">
-          <h2>ПРОЕКТЫ</h2>
-          <h3>Наши последние работы</h3>
-
-          <ul class="cases-list">
-            <li class="case">
-              <img
-                src="resources/project1.png"
-                alt="красивая комната с деревянным столом и белыми колоннами"
-                class="case__img"
-              />
-              <h4 class="case__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h4>
-              <a href="/" class="more-link">Подробнее →</a>
-            </li>
-
-            <li class="case">
-              <img
-                src="resources/project2.png"
-                alt="просторная кухня с белым каменным столом и большой люстрой"
-                class="case__img"
-              />
-              <h4 class="case__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 м² — 2023</h4>
-              <a href="/" class="more-link">Подробнее →</a>
-            </li>
-
-            <li class="case">
-              <img
-                src="resources/project3.png"
-                alt="большая терасса с уютным столиком и мягким диваном"
-                class="case__img"
-              />
-              <h4 class="case__title">ЖК СОСНОВЫЕ ОЗЕРА — 94 м² — 2022</h4>
-              <a href="/" class="more-link">Подробнее →</a>
-            </li>
-          </ul>
-
-          <a href="/" class="button button--width">Смотреть все проекты</a>
+          <div class="cases-inner">
+            <h2>ПРОЕКТЫ</h2>
+            <h3>Наши последние работы</h3>
+            <ul class="cases-list">
+              <li class="case">
+                <img
+                  src="resources/project1.png"
+                  alt="красивая комната с деревянным столом и белыми колоннами"
+                  class="case__img"
+                />
+                <h4 class="case__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h4>
+                <a href="/" class="more-link">Подробнее →</a>
+              </li>
+              <li class="case">
+                <img
+                  src="resources/project2.png"
+                  alt="просторная кухня с белым каменным столом и большой люстрой"
+                  class="case__img"
+                />
+                <h4 class="case__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 м² — 2023</h4>
+                <a href="/" class="more-link">Подробнее →</a>
+              </li>
+              <li class="case">
+                <img
+                  src="resources/project3.png"
+                  alt="большая терасса с уютным столиком и мягким диваном"
+                  class="case__img"
+                />
+                <h4 class="case__title">ЖК СОСНОВЫЕ ОЗЕРА — 94 м² — 2022</h4>
+                <a href="/" class="more-link">Подробнее →</a>
+              </li>
+            </ul>
+            <a href="/" class="button button--width">Смотреть все проекты</a>
+          </div>
         </div>
       </section>
 
-      <section id="services" class="services">
+      <!-- <section id="services" class="services">
         <div class="container container--services">
           <h2>УСЛУГИ</h2>
           <h3>Что мы предлагаем</h3>
@@ -193,10 +199,10 @@
             >hello@mail.com</a
           >
         </address>
-      </section>
+      </section> -->
     </main>
 
-    <footer class="footer">
+    <!-- <footer class="footer">
       <div class="container container--footer">
         <nav class="nav nav--footer">
           <a href="#about-us" class="nav__link nav__link--footer">О НАС</a>
@@ -207,6 +213,6 @@
 
         <p class="footer-p">студия дизайна интерьера Метрика — 2026</p>
       </div>
-    </footer>
+    </footer> -->
   </body>
 </html>
