@@ -2,6 +2,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  letter-spacing: -0.03em;
+}
+
 section,
 .footer {
   /* min-width: 1200px; */
@@ -16,11 +20,12 @@ section,
 
 h1 {
   margin-bottom: 24px;
+  width: 1000px;
 
   font-family: 'EB Garamond', serif;
   font-weight: 400;
-  font-size: 64px;
-  line-height: 110%;
+  font-size: 60px;
+  line-height: 100%;
   color: #1a1a1a;
 }
 
@@ -102,6 +107,7 @@ h3 {
 
 .intro__p {
   margin-bottom: 64px;
+  width: 760px;
 
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -155,7 +161,6 @@ h3 {
   font-size: 20px;
   color: #1a1a1a;
   line-height: 26px;
-  letter-spacing: 0, 5px;
 }
 
 .caption p {
@@ -207,12 +212,12 @@ h3 {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 14px;
-  letter-spacing: 0.07em;
   color: #1a1a1a;
 }
 
 .description__p {
   margin-bottom: 32px;
+  width: 800px;
 
   font-family: 'Inter', sans-serif;
   font-weight: 400;
@@ -238,7 +243,7 @@ h3 {
   font-weight: 400;
   font-size: 20px;
   line-height: 20px;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.05em;
   color: #fff;
 }
 
@@ -291,12 +296,11 @@ h3 {
 }
 
 .case__title {
-  margin-bottom: 36px;
+  margin-bottom: 25px;
 
   font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 24px;
-  letter-spacing: 0.02em;
   color: #1a1a1a;
 }
 
@@ -304,10 +308,10 @@ h3 {
   font-family: 'Inter', sans-serif;
   font-weight: 600;
   font-size: 16px;
-  letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #c62828;
   text-decoration: none;
+  line-height: 27px;
 }
 
 .button--width {
@@ -319,7 +323,6 @@ h3 {
   color: #c62828;
 
   font-size: 40px;
-  letter-spacing: -0.03em;
   line-height: 41px;
 }
 
