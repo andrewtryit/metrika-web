@@ -120,7 +120,7 @@ h3 {
   position: relative;
 
   width: 100%;
-  height: 550px;
+  height: 500px;
 
   background-image: url(../resources/back-room.png);
   background-size: cover;
@@ -257,7 +257,7 @@ h3 {
 .cases-inner {
   padding-top: 120px;
   padding-bottom: 72px;
-}
+} 
 
 .case {
   padding-bottom: 80px;
@@ -292,6 +292,7 @@ h3 {
 
 .case__img {
   width: 100%;
+  /* height: 450px; */
   margin-bottom: 24px;
 }
 

@@ -16,6 +16,15 @@
     padding-bottom: 100px;
   }
 
+  .figure {
+    height: 400px;
+  }
+
+  .figure__caption {
+    bottom: 30px;
+    left: 42px;
+  }
+
   .intro__p {
     margin-bottom: 50px;
     width: 730px;
@@ -47,6 +56,14 @@
     padding-bottom: 60px;
   }
 
+  .case {
+    padding-bottom: 65px;
+  }
+
+  .case:last-child {
+    padding-bottom: 80px;
+  }
+
   .container--cases h3 {
     margin-bottom: 50px;
   }
@@ -61,5 +78,4 @@
     line-height: 20px;
     font-size: 13px;
   }
-
 }
