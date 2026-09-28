@@ -1,0 +1,184 @@
+@import url('styles/header.css');
+@import url('styles/intro.css');
+@import url('styles/description.css');
+@import url('styles/cases.css');
+@import url('styles/services.css');
+@import url('styles/fullscreen.css');
+@import url('styles/contacts.css');
+@import url('styles/footer.css');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  letter-spacing: -0.03em;
+}
+
+section,
+.footer {
+  /* min-width: 1200px; */
+  background-color: #fff;
+}
+
+.container {
+  margin: 0 auto;
+
+  width: 1150px;
+}
+
+h1 {
+  margin-bottom: 24px;
+  width: 1000px;
+
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 100%;
+  color: #1a1a1a;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 12px;
+  color: #c62828;
+}
+
+h2::first-letter {
+  /*Добавил всем h2 отдельные стили для первой буквы*/
+  font-family: 'EB Garamond', serif;
+
+  font-size: 18px;
+  font-weight: 700;
+}
+
+h3 {
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  color: #1a1a1a;
+}
+
+.button {
+  display: inline-block;
+  padding-top: 20px;
+
+  width: 255px;
+  height: 67px;
+
+  background-color: #c62828;
+  border-radius: 4px;
+  border: 1px solid #c62828;
+
+  text-decoration: none;
+  text-align: center;
+  font-family: 'EB Garamond', serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #fff;
+  color: #c62828;
+}
+
+.button--width {
+  padding-top: 54px;
+  width: 100%;
+  height: 153px;
+
+  background-color: #fff;
+  color: #c62828;
+
+  font-size: 40px;
+  line-height: 41px;
+}
+
+.button--width:hover {
+  background-color: #c62828;
+  color: #fff;
+}
+
+.more-link {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #c62828;
+  text-decoration: none;
+  line-height: 27px;
+}
+
+.more-link:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1199px) {
+  .container {
+    width: calc(100% - 30px);
+    margin: 0 auto;
+  }
+
+  h1 {
+    margin-bottom: 24px;
+    width: 750px;
+
+    font-size: 45px;
+    line-height: 110%;
+  }
+
+  .more-link {
+    line-height: 20px;
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    width: calc(100% - 24px);
+
+    margin: 0 auto;
+  }
+
+  h1 {
+    margin-bottom: 19px;
+    width: 100%;
+
+    font-size: 40px;
+    line-height: 105%;
+  }
+
+  h2 {
+    font-size: 12px;
+  }
+
+  h3 {
+    font-size: 30px;
+    line-height: 110%;
+  }
+
+  .button {
+    padding-top: 21px;
+    width: 100%;
+    height: 65px;
+
+    font-size: 18px;
+  }
+
+  .button--width {
+    padding-top: 28px;
+    height: 100px;
+
+    font-size: 24px;
+  }
+
+  .more-link {
+    font-size: 10px;
+    line-height: 10px;
+  }
+}

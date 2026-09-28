@@ -1,0 +1,67 @@
+.fullscreen {
+  padding-top: 238px;
+
+  height: 680px;
+
+  background-image: url(../resources/fullscreen-bed.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container--fullscreen {
+  position: relative;
+  /* margin: 0 auto; */
+
+  width: 1200px;
+  /* height: 204px; */
+}
+
+.container--fullscreen h2 {
+  margin-bottom: 16px;
+
+  font-weight: 400;
+  letter-spacing: 0.15em;
+  text-align: center;
+  color: #fff;
+}
+
+.container--fullscreen h2::first-letter {
+  /*у h2 в секции fullscreen первая буква стандартных размеров */
+  font-family: 'Inter', sans-serif;
+
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.container--fullscreen h3 {
+  text-align: center;
+  margin-bottom: 16px;
+
+  font-size: 48px;
+  color: #fff;
+}
+
+.button--crystal {
+  position: absolute;
+  left: 510px;
+  padding-top: 12px;
+
+  width: 180px;
+  height: 40px;
+
+  background-color: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #fff;
+  text-align: center;
+}
+
+.button--crystal:hover {
+  background-color: rgba(255, 255, 255, 0.12);
+  color: #a0a0ab;
+}

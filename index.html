@@ -4,11 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Метрика</title>
+    <link rel="icon" type="image/x-icon" href="resources/favicon.ico" />
 
     <link rel="stylesheet" href="styles/reset.css" />
-    <link rel="stylesheet" href="styles/main.css" />
-    <link rel="stylesheet" href="styles/tablet.css" />
-    <link rel="stylesheet" href="styles/phone.css" />
+    <link rel="stylesheet" href="main.css" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -74,11 +73,12 @@
               За более чем 12 лет успешной работы мы реализовали свыше 250
               уникальных дизайн-проектов по всей стране и за её пределами.
               Каждый наш проект — это результат глубокого анализа стиля жизни
-              клиента, его ценностей и пожеланий. <br>Мы не просто рисуем красивые
-              картинки — мы создаем глубокую, технологически продуманную жилую
-              среду, где каждая деталь находится на своем месте. Наша команда
-              полностью контролирует все этапы реализации: от первой планировки
-              до финальной навески штор и сдачи объекта "под ключ".
+              клиента, его ценностей и пожеланий. <br />Мы не просто рисуем
+              красивые картинки — мы создаем глубокую, технологически
+              продуманную жилую среду, где каждая деталь находится на своем
+              месте. Наша команда полностью контролирует все этапы реализации:
+              от первой планировки до финальной навески штор и сдачи объекта
+              "под ключ".
             </p>
             <a href="/" class="button">Посмотреть услуги</a>
           </div>
@@ -92,29 +92,67 @@
             <h3>Наши последние работы</h3>
             <ul class="cases-list">
               <li class="case">
-                <img
-                  src="resources/project1.png"
-                  alt="красивая комната с деревянным столом и белыми колоннами"
-                  class="case__img"
-                />
+                <picture>
+                  <source
+                    media="(max-width: 499px)"
+                    srcset="resources/project1/project1_mobile.jpg"
+                  />
+
+                  <source
+                    media="(max-width: 1199px)"
+                    srcset="resources/project1/project1_tablet.jpg"
+                  />
+
+                  <img
+                    src="resources/project1/project1.png"
+                    alt="красивая комната с деревянным столом и белыми колоннами"
+                    class="case__img"
+                  />
+                </picture>
                 <h4 class="case__title">ЖК ПРАВОБЕРЕЖНЫЙ — 112 м² — 2023</h4>
                 <a href="/" class="more-link">Подробнее →</a>
               </li>
+
               <li class="case">
-                <img
-                  src="resources/project2.png"
-                  alt="просторная кухня с белым каменным столом и большой люстрой"
-                  class="case__img"
-                />
+                <picture>
+                  <source
+                    media="(max-width: 499px)"
+                    srcset="resources/project2/project2_mobile.jpg"
+                  />
+
+                  <source
+                    media="(max-width: 1199px)"
+                    srcset="resources/project2/project2_tablet.jpg"
+                  />
+
+                  <img
+                    src="resources/project2/project2.png"
+                    alt="просторная кухня с белым каменным столом и большой люстрой"
+                    class="case__img"
+                  />
+                </picture>
                 <h4 class="case__title">ЖК НОРВЕЖСКИЙ ПАРК — 75 м² — 2023</h4>
                 <a href="/" class="more-link">Подробнее →</a>
               </li>
+
               <li class="case">
-                <img
-                  src="resources/project3.png"
-                  alt="большая терасса с уютным столиком и мягким диваном"
-                  class="case__img"
-                />
+                <picture>
+                  <source
+                    media="(max-width: 499px)"
+                    srcset="resources/project3/project3_mobile.jpg"
+                  />
+
+                  <source
+                    media="(max-width: 1199px)"
+                    srcset="resources/project3/project3_tablet.jpg"
+                  />
+
+                  <img
+                    src="resources/project3/project3.png"
+                    alt="большая терасса с уютным столиком и мягким диваном"
+                    class="case__img"
+                  />
+                </picture>
                 <h4 class="case__title">ЖК СОСНОВЫЕ ОЗЕРА — 94 м² — 2022</h4>
                 <a href="/" class="more-link">Подробнее →</a>
               </li>
