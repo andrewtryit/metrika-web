@@ -1,0 +1,38 @@
+.footer {
+  background-color: #1a1a1a;
+}
+
+.container--footer {
+  padding: 70px 0 53px 0;
+}
+
+.nav--footer {
+  display: block;
+  margin: 0 auto;
+  padding: 0 0 63px 0;
+
+  width: 492px;
+}
+
+.nav__link--footer {
+  margin-right: 60px;
+
+  font-size: 14px;
+  letter-spacing: 0.14em;
+  line-height: 17px;
+  color: #a1a1ab;
+}
+
+.nav__link--footer:hover {
+  color: #a1a1ab;
+  text-decoration: underline;
+}
+
+.footer-p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  line-height: 17px;
+  color: #808087;
+}

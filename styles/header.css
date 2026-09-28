@@ -1,0 +1,44 @@
+.container--header {
+  padding: 32px 0 32px 0;
+}
+
+.logo-link {
+  display: inline-block;
+}
+
+.logo-link,
+.nav {
+  vertical-align: middle;
+}
+
+.logo-img {
+  margin-right: 638px;
+
+  width: 154px;
+  height: 37px;
+}
+
+.nav {
+  display: inline-block;
+}
+
+.nav__link {
+  display: inline-block;
+  margin-right: 40px;
+
+  font-family: 'Inter', sans-serif;
+  font-weight: 500;
+  font-size: 13px;
+  letter-spacing: 0.12em;
+  color: #1a1a1a;
+  text-decoration: none;
+}
+
+.nav__link:last-child {
+  margin-right: 0;
+}
+
+.nav__link:hover {
+  color: #c62828;
+  text-decoration: underline;
+}
