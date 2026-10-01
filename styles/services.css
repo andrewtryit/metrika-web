@@ -24,18 +24,18 @@
 
 .service {
   width: calc(50% - 5.5px);
+  position: relative;
 }
 
 .label-wrapper {
-  position: relative;
+  position: absolute;
+  top: 31px;
+  left: 30px;
 }
 
 .label {
   display: flex;
   align-items: center;
-  position: absolute;
-  top: 31px;
-  left: 30px;
 
   /* width: 163px; */
   padding: 0 21px;
@@ -93,7 +93,7 @@ button.button--width:hover {
     width: calc(50% - 5px);
   }
 
-  .label {
+  .label-wrapper {
     top: 32px;
     left: 32px;
   }
@@ -137,20 +137,21 @@ button.button--width:hover {
     width: 100%;
   }
 
+  .label-wrapper {
+    top: 24px;
+    left: 24px;
+  }
 
-.label {
-  top: 24px;
-  left: 24px;
+  .label {
     padding: 0 17px;
 
+    height: 30px;
+  }
 
-  height: 30px;
-}
-
-.label__price {
-  font-size: 14px;
-  line-height: 19px;
-}
+  .label__price {
+    font-size: 14px;
+    line-height: 19px;
+  }
 
   .service__img {
     margin-bottom: 10px;
