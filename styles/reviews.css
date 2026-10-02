@@ -1,0 +1,130 @@
+.reviews-inner {
+  padding: 150px 0;
+}
+
+.reviews-inner h2 {
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  line-height: 25px;
+}
+
+.reviews-inner h2::after {
+  /*Добавил подчеркивание*/
+  position: absolute;
+  content: '';
+  display: block;
+
+  width: 40px;
+  height: 2px;
+
+  background-image: url(../resources/underscore.png);
+  background-size: cover;
+}
+
+.reviews-list {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.row--single {
+  width: 861px;
+}
+
+.col {
+  width: 530px;
+}
+
+.review__title {
+  margin-bottom: 14px;
+  width: 468px;
+
+  font-size: 45px;
+  line-height: 61px;
+  letter-spacing: -0.03em;
+  color: #000;
+}
+
+.review__text {
+  width: 100%;
+  font-size: 22px;
+  color: #000;
+}
+
+@media (max-width: 1199px) {
+  .reviews-inner {
+    padding: 100px 0;
+  }
+
+  .reviews-list {
+    gap: 80px;
+  }
+
+  .row--single {
+    width: 694px;
+  }
+
+  .col {
+    width: calc(50% - 5px);
+  }
+
+  .review__title {
+    margin-bottom: 25px;
+    width: 364px;
+
+    font-size: 35px;
+    line-height: 48px;
+  }
+
+  .review__text {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .reviews-inner {
+    padding: 60px 0;
+  }
+
+  .reviews-list {
+    gap: 80px;
+  }
+
+  .row {
+    flex-wrap: wrap;
+    gap: 80px;
+  }
+
+  .row--single {
+    width: 100%;
+  }
+
+  .col {
+    width: 100%;
+  }
+
+  .reviews-inner h2 {
+    margin-bottom: 22px;
+    line-height: 19px;
+  }
+
+  .review__title {
+    margin-bottom: 10px;
+    width: 260px;
+
+    font-size: 25px;
+    line-height: 34px;
+  }
+
+  .review__text {
+    font-family: 'Inter', sans-serif;
+
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
